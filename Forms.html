@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+</head>
+<body>
+
+    <!--form: Form Tag-->
+    <!--action: Action Tag-->
+    <!--label: Label Tag-->
+    <!--input: Input Tag-->
+    <!--minlength: Minimum Length Of Input-->
+    <!--maxlength: Maximum Length Of Input-->
+    <!--required: Required Field-->
+    <!--type: Type Of Input-->
+    <!--text: Text Input-->
+    <!--email: Email Input-->
+    <!--password: Password Input-->
+    <!--number: Number Input-->
+    <!--submit: Submit Input-->
+    <!--reset: Reset Input-->
+    <!--placeholder: Placeholder Text-->
+    <!--checkbox: Checkbox Input-->
+    <!--radio: Radio Input-->
+    <!--select: Select Input-->
+    <!--option: Option Input-->
+    <!--textarea: Textarea Input-->
+    <!--button: Button Input-->
+    <!--fieldset: Fieldset Input-->
+    <!--legend: Legend Input-->
+    <!--datalist: Datalist Input-->
+    <!--optgroup: Optgroup Input-->
+
+    <h2>Forms in HTML:</h2>
+    <form action="Resume.html">
+        <label for="fname">Enter Your Name:</label>
+        <input type="text" id="fname" minlength="5" maxlength="12" required  value="" name="fname"/>
+
+        <br /> <br />
+
+        <label for="lname">Enter Your Last Name:</label>
+        <input type="text" id="lname" minlength="5" maxlength="12" required disabled/>
+
+        <br /> <br />
+
+        <label for="age">Age:</label>
+        <input type="number" />
+
+        <br /> <br />
+
+        <label for="email">Enter Your Email:</label>
+        <input type="email" required />
+
+        <br /> <br />
+
+        <label for="password">Enter Your Password:</label>
+        <input type="password" minlength="8" maxlength="12" required />
+
+        <br /> <br />
+
+        <label for="">Date OF JOINING</label>
+        <input type="date" required />
+
+        <p>Enter Your Shirt Size:</p>
+        <input type="radio" name="ShirtSize" id="medium" checked value="medium"/> <label for="medium">Medium</label>
+        <input type="radio" name="ShirtSize" id="large" value="large" /> <label for="large">Large</label>
+        <input type="radio" name="ShirtSize" id="small" value="small" /> <label for="small">Small</label>
+
+
+        <br /> <br />
+
+        <p>Select Your Language:</p>
+        <input type="checkbox" name="Language" id="Hindi" value="Hindi"/> <label for="Hindi">Hindi</label>
+        <input type="checkbox" name="Language" id="Gujarati" value="Gujarati" /> <label for="Gujarati">Gujarati</label>
+        <input type="checkbox" name="Language" id="English"  value="English" checked/> <label for="English">English</label>
+
+        <br> <br />
+
+        <label for="Color">Please Select the Color</label>
+        <input type="color" />
+  
+        <br /> <br />
+
+        <label for="PaymentOptions">Please Select Payment Option:</label>
+        <select name="" id="PaymentOptions">
+            <option value=""></option>
+            <option value="Netbanking">Netbanking</option>
+            <option value="UPI">UPI</option>
+            <option value="Creditcards">Creditcards</option>
+            <option value="Debitcards">Debitcards</option>
+            <option value="CashonDelivery">Cash on Delivery</option>
+        </select>
+
+        <br> <br />
+
+        <label for="">Please Provide Your Feedback:</label> 
+        <textarea name="CMT" 
+        id="CMTS" 
+        cols="50" 
+        rows="10" 
+        placeholder="Please Provide Your Feedback">
+        </textarea>
+
+        <br> <br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+
+        <!--name: Name Of Input-->
+        <!--Radio: Radio Input-->
+        <!--label: Label Input-->
+        <!--Checkbox: Checkbox Input-->
+        <!--Select: Select Input-->
+        <!--option: Option Input-->
+        <!--Textarea: Textarea Input-->
+        <!--button: Button Input-->
+        </form>
+</body>
+</html>

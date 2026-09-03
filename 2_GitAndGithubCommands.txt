@@ -32,3 +32,9 @@ MAndatory Commands:
 
 
 git pull origin Main  
+git status
+
+git add .
+git status
+git commit -m "Commit Message"
+git push
